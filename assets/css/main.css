@@ -28,6 +28,19 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.avatar {
+	border-bottom: 0;
+}
+.avatar img {
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+	.mine_hide {
+		display: none;
+	}
+}
+
 body {
 	line-height: 1;
 }
